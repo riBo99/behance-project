@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/backgrounds3.jpeg);
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input[type=text] {
+    padding: 15px;
+}
+input[type=submit] {
+    padding: 15px;
+    background-color: rgb(46, 160, 46);
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:large;
+}
